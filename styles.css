@@ -22,9 +22,6 @@ a {
     color: white;
 }
 
-.element-one {
-    flex: 1;
-}
 
 .header, .header-links{
     display: flex;
@@ -53,7 +50,7 @@ a {
 .element-one {
     display: flex;
     color: white;
-    height: 400px;
+    height: 500px;
     align-items: center;
 }
 
@@ -97,6 +94,30 @@ a {
     border-radius: 10px;
 }
 
+.element-two {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-element {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.bottom-element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.square {
+    /* Start to edit here  */
+    border: 4px solid blue;
+}
+
 .footer {
     display: flex;
     justify-content: center;
@@ -104,5 +125,5 @@ a {
 }
 
 .footer-text {
-        color: white;
+    color: white;
 }
