@@ -63,7 +63,7 @@ a {
     padding: 130px;
 }
 
-.left-element {
+.element-one .left-element {
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -71,20 +71,20 @@ a {
     align-items: flex-start;
 }
 
-.left-element h1{
+.element-one .left-element h1{
     font-size: 50px;
     font-weight: bolder;
     margin-bottom: 0;
 }
 
-.right-element {
+.element-one .right-element {
     display: flex;
     flex: 1;
     justify-content: center;
     align-items: center;
 }
 
-.sign-up-button {
+.element-one .sign-up-button {
     background-color: #3882F6;
     border: none;
     color: white;
@@ -100,13 +100,13 @@ a {
     flex-direction: column;
 }
 
-.top-element {
+.element-two .top-element {
     text-align: center;
     font-size: 40px;
     font-weight: bolder;
 }
 
-.bottom-element {
+.element-two .bottom-element {
     display: flex;
     justify-content: space-between;
     align-items: center;
