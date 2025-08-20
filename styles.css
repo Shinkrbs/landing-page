@@ -3,12 +3,18 @@
 html, body {
     height: 100%;
     margin: 0;
-    display: flex;
-    flex-direction: column;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.element-one,
+.element-two,
+.element-three,
+.element-four {
+    height: 500px;
+    flex-shrink: 0;
 }
 
 ul {
@@ -22,14 +28,16 @@ a {
     color: white;
 }
 
-
-.header, .header-links{
+.header,
+.header-links {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header, .footer, .element-one{
+.header,
+.footer,
+.element-one {
     background: #1F2937;
 }
 
@@ -43,14 +51,13 @@ a {
     font-weight: bolder;
 }
 
-.element-one div{
+.element-one div {
     margin: 0 20px;
 }
 
 .element-one {
     display: flex;
     color: white;
-    height: 500px;
     align-items: center;
     border: 4px solid green;
 }
@@ -72,7 +79,7 @@ a {
     align-items: flex-start;
 }
 
-.element-one .left-element h1{
+.element-one .left-element h1 {
     font-size: 50px;
     font-weight: bolder;
     margin-bottom: 0;
@@ -99,7 +106,6 @@ a {
     flex: 1;
     display: flex;
     flex-direction: column;
-    height: 500px;
     border: 4px solid blue;
 }
 
@@ -114,19 +120,29 @@ a {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    padding: 20px 80px;
+}
+
+.element-two .bottom-element .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
 }
 
 .square {
-    /* Start to edit here  */
-    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
     border: 4px solid blue;
 }
 
 .element-three {
     display: flex;
     text-align: left;
+    align-items: center;
     padding: 50px;
-    border: 4px solid red; 
+    border: 4px solid red;
     background: #E5E7EB;
 }
 
