@@ -52,14 +52,13 @@ a {
 }
 
 .element-one div {
-    margin: 0 20px;
+    margin: 0 50px;
 }
 
 .element-one {
     display: flex;
     color: white;
     align-items: center;
-    border: 4px solid green;
 }
 
 .element-one-image {
@@ -106,7 +105,7 @@ a {
     flex: 1;
     display: flex;
     flex-direction: column;
-    border: 4px solid blue;
+
 }
 
 .element-two .top-element {
@@ -142,7 +141,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 40px;
-    border: 4px solid red;
+
     background: #E5E7EB;
 }
 
@@ -164,18 +163,40 @@ a {
 
 .element-four {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 40px;
-    border: 4px solid purple;
+
+    color: #E5E7EB;
 }
 
 .element-four .container {
     background: #3882F6;
     width: 100%;
     height: 30%;
-    border-radius: 20px;
-    padding: 25px;
+    max-width: 1000px;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.element-four .right-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.element-four .right-element .sign-up-button {
+    color: #E5E7EB;
+    background: #3882F6;
+    border: 4px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 900;
 }
 
 .footer {
